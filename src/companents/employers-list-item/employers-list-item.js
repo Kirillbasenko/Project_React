@@ -3,10 +3,10 @@ import "./employers-list-item.css"
 
 const EmployersListItem = (props) => {
 
-    const {name, salary, onDelete, onToggleProp, increase, rise} = props;
+    const {name, salary, onDelete, onToggleProp, premium, rise} = props;
 
     let classNames = "list-group-item d-flex justify-content-between";
-    if (increase) {
+    if (premium) {
         classNames += ' increase';
     }
     if (rise) {
@@ -21,7 +21,7 @@ const EmployersListItem = (props) => {
                 <button type="button"
                     className="btn-cookie btn-sm "
                     onClick={onToggleProp}
-                    data-toggle="increase">
+                    data-toggle="premium">
                     <i className="fas fa-cookie"></i>
                 </button>
 
