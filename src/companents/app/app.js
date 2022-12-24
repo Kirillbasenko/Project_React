@@ -8,15 +8,14 @@ import EmployersAddForm from "../employers-add-form/employers-add-form";
 
 import "./app.css";
 
-
 class App extends Component{
    constructor(props){
       super(props);
       this.state = {
          data: [
-            {name: "Kirill Basenko", salary: 80000, premium: false, rise: false, id: 1},
-            {name: "Artur Babenko", salary: 900, premium: false, rise: false, id: 2},
-            {name: "Ctarikov Danil", salary: 5000, premium: false, rise: false, id: 3}
+            {name: "Ivan Ivanov", salary: 80000, premium: false, rise: false, id: 1},
+            {name: "Pety Petrov", salary: 900, premium: false, rise: false, id: 2},
+            {name: "Vasy Vasechkin", salary: 5000, premium: false, rise: false, id: 3}
          ],
          term: "",
          filter: "all"

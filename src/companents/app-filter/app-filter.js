@@ -1,4 +1,3 @@
-
 import "./app-filter.css";
 
 const AppFilter = (props) => {
@@ -17,7 +16,7 @@ const AppFilter = (props) => {
             type = "button"
             key={name}
             onClick={() => props.onFilterSelect(name)}>
-               {label}
+            {label}
          </button>
       )
    })
