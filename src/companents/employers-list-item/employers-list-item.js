@@ -1,7 +1,7 @@
 import "./employers-list-item.css"
 
 const EmployersListItem = (props) => {
-
+    console.log("Hello");
     const {name, salary, onDelete, onToggleProp, premium, rise} = props;
 
     let classNames = "list-group-item d-flex justify-content-between";
